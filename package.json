@@ -1,0 +1,19 @@
+{
+  "name": "mytask",
+  "version": "1.0.0",
+  "description": "angular2 node server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fortheworld2017/Angular2-node-mongo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fortheworld2017/Angular2-node-mongo/issues"
+  },
+  "homepage": "https://github.com/fortheworld2017/Angular2-node-mongo#readme"
+}
