@@ -5,7 +5,7 @@ var bodyParser = require('body-parser');
 var index = require('./routes/index');
 var tasks = require('./routes/tasks');
 
-var port = 3000;
+var port = 4000;
 
 var app = express();
 
@@ -22,6 +22,9 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 
 app.use('/', index);
+/*app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname,'client/index.html'))
+});*/
 app.use('/api',tasks);
 
 app.listen(port, function(){
